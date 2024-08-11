@@ -11,16 +11,16 @@
 
 
   <script>
-    // This code should be added to <head>.
-// It's used to prevent page load glitches.
-    const html = document.querySelector('html');
-    const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
-    const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  // This code should be added to <head>.
+  // It's used to prevent page load glitches.
+  const html = document.querySelector('html');
+  const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
 
-    if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
-    else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
-    else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
-    else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
+  if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
+  else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
+  else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
+  else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
   </script>
 
   <style>
@@ -108,7 +108,7 @@
 
   <hr class="border-1 dark:border-[#404040] my-2 light:border-[#F5F5F5]">
 
-  <div class="container mx-auto px-4">
+  <div class="container p-3 lg:py-3 mx-auto">
     
     <section id="main-page" class="dark:text-[#D4D4D4] dark:bg-gradient-to-r from-[#1E293B] to-[#0C0A09] shadow-xl rounded">
         <div class=" py-10 ">
@@ -135,7 +135,7 @@
                     </div>
                   </div>
                   <p class="text-center ml-14  mt-5 font-semibold dark:text-[#64748B]">Amit,</p>
-                  <p class="text-center ml-14 dark:text-[#64748B]"><i>Developer</i></p>
+                  <p class="text-center ml-14 dark:text-[#64748B] text-sm text-[13px]"><i>Developer</i></p>
             </div>
             
           </div>
