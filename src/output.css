@@ -2764,6 +2764,10 @@ details.collapse summary::-webkit-details-marker {
   height: auto;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -2957,6 +2961,16 @@ details.collapse summary::-webkit-details-marker {
   border-color: transparent;
 }
 
+.border-teal-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(20 184 166 / var(--tw-border-opacity));
+}
+
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
 .border-t-transparent {
   border-top-color: transparent;
 }
@@ -2984,6 +2998,28 @@ details.collapse summary::-webkit-details-marker {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#\#1E1B4B\] {
+  background-color: ##1E1B4B;
+}
+
+.bg-\[\#1E1B4B\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 27 75 / var(--tw-bg-opacity));
+}
+
+.bg-\[red\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -3127,6 +3163,16 @@ details.collapse summary::-webkit-details-marker {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -3175,6 +3221,21 @@ details.collapse summary::-webkit-details-marker {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-red-50 {
+  --tw-text-opacity: 1;
+  color: rgb(254 242 242 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-violet-500 {
+  --tw-text-opacity: 1;
+  color: rgb(139 92 246 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -3380,6 +3441,18 @@ details.collapse summary::-webkit-details-marker {
 
 .dark\:bg-gradient-to-r:is(.dark *) {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.dark\:bg-gradient-to-tr:is(.dark *) {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.dark\:bg-gradient-to-t:is(.dark *) {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.dark\:bg-gradient-to-b:is(.dark *) {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .dark\:fill-neutral-200:is(.dark *) {
