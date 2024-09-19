@@ -3345,6 +3345,18 @@ details.collapse summary::-webkit-details-marker {
   font-size: 27px;
 }
 
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.text-\[3px\] {
+  font-size: 3px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -3412,6 +3424,10 @@ details.collapse summary::-webkit-details-marker {
 .text-violet-500 {
   --tw-text-opacity: 1;
   color: rgb(139 92 246 / var(--tw-text-opacity));
+}
+
+.text-\[px\] {
+  color: px;
 }
 
 .opacity-0 {
@@ -3860,5 +3876,13 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:text-\[50px\] {
     font-size: 50px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-\[38px\] {
+    font-size: 38px;
   }
 }
